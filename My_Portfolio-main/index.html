@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r152/three.min.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">Jagadeesh</div>
+            <div class="hamburger"><i class="fas fa-bars"></i></div>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <canvas id="bg3d" aria-hidden="true"></canvas>
+        <div class="container hero-content">
+            <div class="hero-text fade-in delay-1">
+                <h1>Hello, I'm <span>Jagadeesh Boyalla</span></h1>
+                <p>ML-driven full‑stack developer crafting performant, elegant products. I blend AI/ML with modern web to deliver measurable business impact and delightful UX.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn">View Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    <a href="B_Jagadeesh.pdf" class="btn btn-outline" download>Download Resume</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/jagadeesh809809"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/jagadeeshboyalla"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/____jag._/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="hero-image fade-in delay-2">
+                <img src="jd.jpg" alt="Jagadeesh Boyalla">
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container about-content">
+            <div class="about-text fade-in delay-1">
+                <h3>About Me</h3>
+                <p>I design, build, and ship data‑driven products. Strengths: ML systems, TypeScript/React, Node.js, and cloud. I focus on outcomes: faster features, lower costs, and delightful UX.</p>
+            </div>
+            <div class="about-skills fade-in delay-2">
+                <div class="skills">
+                    <span class="skill">Fronted Development</span>
+                    <span class="skill">Python</span>
+                    <span class="skill">Java</span>
+                    <span class="skill">UiUx</span>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Services</h2>
+            </div>
+            <div class="services-container">
+                <div class="service-card fade-in delay-1" data-tilt>
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Building responsive and robust websites and web apps tailored to your needs.</p>
+                </div>
+                <div class="service-card fade-in delay-2" data-tilt>
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Designing user interfaces that are both beautiful and user-friendly.</p>
+                </div>
+                <div class="service-card fade-in delay-2" data-tilt>
+    <i class="fas fa-robot"></i>
+    <h3>AI/ML Solutions</h3>
+    <p>Custom machine learning models and AI solutions tailored to your business needs, from predictive analytics to computer vision applications.</p>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>Projects</h2>
+            </div>
+            <div class="projects-container">
+                <div class="project-card fade-in delay-1" data-tilt>
+                    <div class="project-img">
+                        <img src="/img/j1.png" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>Personal portfolio website to showcase my work and skills.</p>
+                        <div class="project-links">
+                            <a href="https://jagadeesh809809.github.io/My_Portfolio/"><i class="fas fa-external-link-alt"></i> Live</a>
+                            <a href="https://github.com/jagadeesh809809/My_Portfolio"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in delay-2" data-tilt>
+                    <div class="project-img">
+                        <img src="/img/c.png" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Medical_Care</h3>
+                        <p>A full-featured task management app with authentication and real-time updates.</p>
+                        <div class="project-links">
+                            <a href="https://jagadeesh809809.github.io/Med_Care/"><i class="fas fa-external-link-alt"></i> Live</a>
+                            <a href="https://github.com/jagadeesh809809/Med_Care"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container contact-container">
+            <div class="contact-info fade-in delay-1">
+                <h3>Contact Me</h3>
+                <p>Let's work together! Reach out for collaborations or just a friendly hello 👋</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>jagadeeshboyalla3384@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 87623 24613</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-location"></i>
+                        <span>Chaitanya College Rd, Chinamiram Rural, 
+                            Bhimavaram, Andhra Pradesh 534204</span>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form fade-in delay-2" id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" class="form-control" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-links">
+                <a href="https://github.com/jagadeesh809809"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/jagadeeshboyalla"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/____jag._/"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="copyright">
+                &copy; 2025 Jagadeesh Boyalla. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <div class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></div>
+    <script src="script.js"></script>
+</body>
+</html>
